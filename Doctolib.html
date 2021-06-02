@@ -7,13 +7,11 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
     <meta Name="Author" Content="Robin MAHE">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 
-
 <body>
-    <div id="ma_page">
-        <header>
+    <header>
+        <div class="fondbleu">
             <nav>
                 <ul class="menu">
                     <li id="pro">Vous êtes professionnels de santé</li>
@@ -34,226 +32,194 @@
                         <div class="centré">
                             <input type="text" id="quoi" placeholder="Medecin, établissement, spécialité">
                             <input type="text" id="ou" placeholder="Où ?">
-                            <button type="submit" id="rechercher">Rechercher</button>
+                            <button type="submit" id="rechercher"> Rechercher ></button>
                         </div>
                     </div>
                 </form>
             </div>
-            <br><br><br>
-            <div class="centre">
-                <table>
-                    <thea>
-                        <td colspan="4" id="info">
-                            <h2>Informations</h2>
-                        </td>
-                        </thead>
-                        <tbody>
+            <br><br><br><br><br>
+        </div>
+        <div class="centre">
+            <table>
+                <tr>
+                    <td colspan="4" id="info">
+                        <h2>Informations</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Vaccination : ouverte aux plus de 50 ans</h3>
+                        <p>Toutes les personnes de plus de 50 ans peuvent désormais se faire vacciner contre la COVID-19.</p>
+                        <p>Les personnes de 18 à 49 ans non prioritaires peuvent prendre rendez-vous sur les créneaux disponibles le jour même ou le lendemain. En savoir plus.</p>
+                    </td>
+                    <td>
+                        <h3>Ensemble, relevons le #DéfiVaccination</h3>
+                        <p>La vaccination contre la COVID-19 est un défi de santé publique majeur : nous avons tous un rôle à jouer.</p>
+                        <p>Cliquez sur le bouton ci-dessous pour accéder aux statistiques du #DéfiVaccination et tout comprendre sur la campagne.</p>
+
+                    </td>
+                    <td>
+                        <h3>Santé mentale : passons à l’action</h3>
+                        <p>10 millions de consultations vidéo ont été réalisées avec Doctolib depuis le lancement du service en 2019.</p>
+                        <p>Dans quels cas opter pour ce mode de consultation ? Nous sommes allés à la rencontre de nos utilisateurs afin qu’ils nous partagent leur expérience.</p>
+
+                    </td>
+                    <td>
+                        <h3>Testez le chatbot</h3>
+                        Harmon est un chatbot qui va vous aider à gagner du temps pour trouver un renseignement, prendre un rendez-vous avec un professionnel et compléter votre DMP
+                        <div class="centre">
+                            <a href="#harmon"><img id="#profil_harmon" src="img/harmon.png " alt=" " title=" " /></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class=" cta ">Prendre rendez-vous</div>
+                    </td>
+                    <td>
+                        <div class="cta ">Acceder aux statistiques</div>
+                    </td>
+                    <td>
+                        <div class="cta ">Découvrez des témoignas</div>
+                    </td>
+                    <td>
+                        <a href="#harmon">
+                            <div class="cta ">Tester le chatbot</div>
+                        </a>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <main>
+        <div class="centre">
+            <h2>Pourquoi prendre rendez-vous avec Doctolib</h2>
+        </div>
+        <div class="centre">
+            <table>
+                <tr>
+                    <td>
+                        <img class="img" src="img/1.png " alt=" " title=" " />
+                        <p>Accédez aux disponibilités de <strong>dizaines de milliers</strong> de professionnels de santé.</p>
+                    </td>
+                    <td>
+                        <img class="img" src="img/2.png " alt=" " title=" " />
+                        <p>Prenez rendez vous en ligne, <strong>24h/24 et 7j/7</strong>, pour une consultation physique ou vidéo.</p>
+                    </td>
+                    <td>
+                        <img class="img" src="img/3.png " alt=" " title=" " />
+                        <p>
+                            Recevez des <strong>rappels automatiques</strong> par SMS ou par email.
+                        </p>
+                    </td>
+                    <td>
+                        <img class="img" src="img/4.png " alt=" " title=" " />
+                        <p>Retrouvez votre <strong>historique de rendez-vous</strong> et vos <strong>documents médicaux</strong>.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Doctolib c'est...<br>50 millions de patients<br>150 000 professionnels de santé<br>97% d'avis positifs</p>
+                    </td>
+                    <td><iframe id="harmon" src="https://fxo.io/m/shoes-motivating-9113" style="border: 3px solid #f9f9fb; width: 500px; height: 500px;" allowfullscreen></iframe></td>
+                    <td></td>
+                    <td>
+                        <p>Vous pouvez télécharger notre livre blanc en cliquant sur le pdf</p>
+                        <a href="docs/Livre_blanc.pdf" target="_blank"> <img src="img/téléchargement.png " alt=" " title=" " class="img" /></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="centre">
+            <p>Votre santé. Vos données.</p>
+            <p>La confidentialité de vos informations personnelles est une priorité absolue pour Doctolib et guide notre action au quotidien.</p>
+        </div>
+        <br><br><br>
+        <div class="centre">
+            <div>
+                <img class="store" src="img/5.png " alt=" " title=" " />
+                <img class="store" src="img/6.png " alt=" " title=" " />
+            </div>
+            <img style="width: 300px; height: auto; " src="img/7.png " alt=" " title=" " />
+        </div>
+        <br><br><br>
+        <div class="centre">
+            <div>
+                <p>Vous êtes professionnel de santé ?</p>
+                <ul>
+                    <li> Équipez-vous du logiciel Doctolib pour gagner en confort de travail.</li>
+                    <li> Libérez du temps médical grâce à la prise de rendez-vous en ligne et un logiciel moderne</li>
+                    <li> Développez l'activité de votre cabinet selon vos besoins grâce à une meilleure visibilité en ligne</li>
+                    <li> Gagnez en confort de travail au quotidien en réduisant les appels téléphoniques à votre cabinet</li>
+                    <li> Améliorez l'accès aux soins pour vos patients en leur proposant la meilleure des expériences</li>
+                </ul>
+                <button>Découvrir doctolib pro</button>
+            </div>
+            <div><img class="imgs" src="img/8.png " alt=" " title=" " /></div>
+        </div>
+
+        <br><br><br>
+        <div class="centre">
+            <img class="imgs" src="img/10.png " alt=" " title=" " />
+            <p>Doctolib recrute ! <br> Pour un système de santé plus humain, efficace et connecté.
+            </p>
+            <img class="imgs" src="img/9.png " alt=" " title=" " />
+        </div>
+    </main>
+    <footer>
+        <div class="centre">
+            <div><img src="img/Logo.png " alt=" " title=" " /></div>
+        </div>
+        <div class="centre">
+            <table>
+                <tr>
+                    <td>
+                        <p>À propos de Doctolib</p>
+                        <p>À propos de Doctolib <br> Vaccination COVID-19 <br> Test COVID - Depistage <br> Test PCR Consultation vidéo - Téléconsultation <br> À propos de nous <br> Carrières <br> Presse <br> Besoin d'aide ? <br> Notifications frauduleuses
+                            (tentatives de phishing) <br> Doctolib Deutschland
+                        </p>
+                        <p>Pour les professionnels de santé </p>
+                        <p>Logiciel de gestion Doctolib Pro Doctolib Community</p>
+                    </td>
+                    <td>
+                        <table>
+                            <thead colspan="2">Trouvez votre spécialiste</thead>
                             <tr>
                                 <td>
-                                    <div>
-                                        <h3>Vaccination : ouverte aux plus de 50 ans</h3>
-                                        <p>Toutes les personnes de plus de 50 ans peuvent désormais se faire vacciner contre la COVID-19.</p>
-                                        <p>Les personnes de 18 à 49 ans non prioritaires peuvent prendre rendez-vous sur les créneaux disponibles le jour même ou le lendemain. En savoir plus.</p>
-                                    </div>
-                                    <div class=" cta ">Prendre rendez-vous</div>
+                                    <p> Chirurgien-dentiste <br> Médecin généraliste <br> Pédiatre <br> Gynécologue médical et obstétrique <br> Ophtalmologue <br> Dermatologue et vénérologue <br> Ostéopathe <br> Masseur-kinésithérapeute <br> Pédicure-podologue
+                                        <br> Sage-femme <br> <br> Toutes les spécialités <br> Toutes les expertises
+                                    </p>
                                 </td>
                                 <td>
-                                    <div>
-                                        <h3>Ensemble, relevons le #DéfiVaccination</h3>
-                                        <p>La vaccination contre la COVID-19 est un défi de santé publique majeur : nous avons tous un rôle à jouer.</p>
-                                        <p>Cliquez sur le bouton ci-dessous pour accéder aux statistiques du #DéfiVaccination et tout comprendre sur la campagne.</p>
-                                    </div>
-                                    <div class="cta ">Acceder aux statistiques</div>
-                                </td>
-                                <td>
-                                    <h3>Santé mentale : passons à l’action</h3>
-                                    <p>10 millions de consultations vidéo ont été réalisées avec Doctolib depuis le lancement du service en 2019.</p>
-                                    <p>Dans quels cas opter pour ce mode de consultation ? Nous sommes allés à la rencontre de nos utilisateurs afin qu’ils nous partagent leur expérience.</p>
-                                    <div class="cta ">Découvrez des témoignas</div>
-                                </td>
-                                <td>
-                                    <h3>Testez le chatbot</h3>
-                                    <p>Harmon est un chatbot qui va vous aider à gagner du temps pour trouver un renseignement, prendre un rendez-vous avec un professionnel et compléter votre DMP
-                                        <a href="#harmon"><img class="img" src="img/harmon.png " alt=" " title=" " /></a>
-                                        <div class="cta ">Tester le chatbot</div>
+                                    <p> ORL <br> Allergologue <br> Chirurgien urologue <br> Rhumatologue <br> Stomatologue <br> Endocrinologue <br> Chirurgien orthopédiste <br> Diététicien <br> Psychologue <br> Neurologue</p>
                                 </td>
                             </tr>
-                        </tbody>
-                </table>
-            </div>
-
-            <!-- <div class="">
-                <div>
-                    <h2>Informations</h2>
-                </div>
-                <div>
-                    <div>
-                        <h3>Vaccination : ouverte aux plus de 50 ans</h3>
-                        <p>Toutes les personnes de plus de 50 ans peuvent désormais se faire vacciner contre la COVID-19. <br> Les personnes de 18 à 49 ans non prioritaires peuvent prendre rendez-vous sur les créneaux disponibles le jour même ou le lendemain.
-                            En savoir plus.
-                        </p>
-                        <div class=" cta ">Prendre rendez-vous</div>
-                    </div>
-                    <div>
-                        <h3>Ensemble, relevons le #DéfiVaccination</h3>
-                        <p>La vaccination contre la COVID-19 est un défi de santé publique majeur : nous avons tous un rôle à jouer.
-                            <br> Les personnes de 18 à 49 ans non prioritaires peuvent prendre rendez-vous sur les créneaux disponibles le jour même ou le lendemain. En savoir plus.</p>
-                        <div class="cta ">Prendre rendez-vous</div>
-                    </div>
-                    <div>
-                        <h3>Santé mentale : passons à l’action</h3>
-                        <p>Toutes les personnes de plus de 50 ans peuvent désormais se faire vacciner contre la COVID-19. <br> Les personnes de 18 à 49 ans non prioritaires peuvent prendre rendez-vous sur les créneaux disponibles le jour même ou le lendemain.
-                            En savoir plus.
-                        </p>
-                        <div class="cta ">Prendre rendez-vous</div>
-                    </div>
-                </div>                
-            </div> -->
-        </header>
-
-        <main>
-            <div class="centre">
-                <h2>Pourquoi prendre rendez-vous avec Doctolib</h2>
-            </div>
-
-            <div class="centre">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img class="img" src="img/1.png " alt=" " title=" " />
-                                <p>Accédez aux disponibilités de <strong>dizaines de milliers</strong> de professionnels de santé.</p>
-                            </td>
-                            <td>
-                                <img class="img" src="img/2.png " alt=" " title=" " />
-                                <p>Prenez rendez vous en ligne, <strong>24h/24 et 7j/7</strong>, pour une consultation physique ou vidéo.</p>
-                            </td>
-                            <td>
-                                <img class="img" src="img/3.png " alt=" " title=" " />
-                                <p>
-                                    Recevez des <strong>rappels automatiques</strong> par SMS ou par email.
-                                </p>
-                            </td>
-                            <td>
-                                <img class="img" src="img/4.png " alt=" " title=" " />
-                                <p>Retrouvez votre <strong>historique de rendez-vous</strong> et vos <strong>documents médicaux</strong>.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div>
-                                    <p>Doctolib c'est...<br>50 millions de patients<br>150 000 professionnels de santé<br>97% d'avis positifs</p>
-
-
-                                </div>
-                            </td>
-                            <td><iframe id="harmon" src="https://fxo.io/m/shoes-motivating-9113" width="100%" height="100%" style="border: 3px solid #f9f9fb; width: 500px; height: 500px;" allowfullscreen></iframe></td>
-                            <td></td>
-                            <td>
-                                <div>
-                                    <p>Vous pouvez télécharger notre livre blanc en cliquant sur le pdf</p>
-                                    <a href="docs/Livre_blanc.pdf" target="_blank"> <img src="img/téléchargement.png " alt=" " title=" " class="img" /></td>
-                            </a>
-                            </div>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p>Votre santé. Vos données.</p>
-            <p>La confidentialité de vos informations personnelles est une priorité absolue pour Doctolib et guide notre action au quotidien.
-            </p>
-            <br><br><br>
-            <div class="centre">
-                <div>
-                    <img class="store" src="img/5.png " alt=" " title=" " />
-                    <img class="store" src="img/6.png " alt=" " title=" " />
-                </div>
-                <img style="width: 300px; height: auto; " src="img/7.png " alt=" " title=" " />
-            </div>
-            <br><br><br>
-            <div class="centre">
-                <div>
-                    <p>Vous êtes professionnel de santé ?</p>
-                    <ul>
-                        <li> Équipez-vous du logiciel Doctolib pour gagner en confort de travail.</li>
-                        <li> Libérez du temps médical grâce à la prise de rendez-vous en ligne et un logiciel moderne</li>
-                        <li> Développez l'activité de votre cabinet selon vos besoins grâce à une meilleure visibilité en ligne</li>
-                        <li> Gagnez en confort de travail au quotidien en réduisant les appels téléphoniques à votre cabinet</li>
-                        <li> Améliorez l'accès aux soins pour vos patients en leur proposant la meilleure des expériences</li>
-                    </ul>
-                </div>
-                <div><img class="imgs" src="img/8.png " alt=" " title=" " /></div>
-            </div>
-            <button>Découvrir doctolib pro</button>
-            <br><br><br>
-            <div class="centre">
-                <img class="imgs" src="img/10.png " alt=" " title=" " />
-                <p>Doctolib recrute ! Pour un système de santé plus humain, efficace et connecté.
-                </p>
-                <img class="imgs" src="img/9.png " alt=" " title=" " />
-            </div>
-
-            <img src="img/Logo.png " alt=" " title=" " />
-        </main>
-        <footer>
-            <div class="centre">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <p>À propos de Doctolib</p>
-                                <p>À propos de Doctolib <br> Vaccination COVID-19 <br> Test COVID - Depistage <br> Test PCR Consultation vidéo - Téléconsultation <br> À propos de nous <br> Carrières <br> Presse <br> Besoin d'aide ? <br> Notifications frauduleuses
-                                    (tentatives de phishing) <br> Doctolib Deutschland
-                                </p>
-                                <p>Pour les professionnels de santé </p>
-                                <p>Logiciel de gestion Doctolib Pro Doctolib Community</p>
-                            </td>
-                            <td>
-                                <table>
-                                    <tr colspan="2">Trouvez votre spécialiste</tr>
-                                    <tr>
-                                        <td>
-                                            <p> Chirurgien-dentiste <br> Médecin généraliste <br> Pédiatre <br> Gynécologue médical et obstétrique <br> Ophtalmologue <br> Dermatologue et vénérologue <br> Ostéopathe <br> Masseur-kinésithérapeute <br> Pédicure-podologue
-                                                <br> Sage-femme <br> <br> Toutes les spécialités <br> Toutes les expertises
-                                            </p>
-                                        </td>
-                                        <td>
-                                            <p> ORL <br> Allergologue <br> Chirurgien urologue <br> Rhumatologue <br> Stomatologue <br> Endocrinologue <br> Chirurgien orthopédiste <br> Diététicien <br> Psychologue <br> Neurologue</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td></td>
-                            <td>
-                                <p>Recherches fréquentes</p>
-                                <p>
-                                    Chirurgien-dentiste Paris <br> Médecin généraliste Paris <br> Pédiatre Paris <br> Gynécologue médical et obstétrique Paris <br> Ophtalmologue Paris <br> Dermatologue et vénérologue Paris <br> Ostéopathe Paris <br> Masseur-kinésithérapeute
-                                    Paris <br> Pédicure-podologue Paris <br> Sage-femme Paris</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="reseaux">
-                <div class="reseau"></div>
-            </div>
-            <div class="centre">
-                <p>Recherche de praticiens</p>
-                <p>Nouveaux praticiens réservables A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-            </div>
-            <div class="centre">
-                Doctolib, 54 quai Charles Pasqua, 92300 Levallois-Perret Conditions générales d'utilisation • Politique relative à la protection des données personnelles • Politique en matière de cookies • Gestion des cookies • Règles de référencement Annuaire des médecins
-                du CNOM • Annuaire des chirurgiens-dentistes de l'ONCD • Ordre National des Médecins • Ordre National des Chirurgiens-Dentistes
-            </div>
-        </footer>
-        <script src="https://widget.flowxo.com/embed.js" data-fxo-widget="eyJ0aGVtZSI6IiM2YjY3YzIiLCJ3ZWIiOnsiYm90SWQiOiI2MDlhMzJiY2I3YTM0MjAwMzNhOWY3YzIiLCJ0aGVtZSI6IiM2YjY3YzIiLCJsYWJlbCI6Ikhhcm1vbiJ9fQ==" async defer></script>
-    </div>
-    <!-- <div class="harmon">
-        <iframe id="harmon" src="https://fxo.io/m/shoes-motivating-9113" width="100%" height="100%" style="border: 3px solid #f9f9fb; width: 500px; height: 500px;" allowfullscreen></iframe>
-    </div> -->
+                        </table>
+                    </td>
+                    <td></td>
+                    <td>
+                        <p>Recherches fréquentes</p>
+                        <p>
+                            Chirurgien-dentiste Paris <br> Médecin généraliste Paris <br> Pédiatre Paris <br> Gynécologue médical et obstétrique Paris <br> Ophtalmologue Paris <br> Dermatologue et vénérologue Paris <br> Ostéopathe Paris <br> Masseur-kinésithérapeute
+                            Paris <br> Pédicure-podologue Paris <br> Sage-femme Paris</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="reseaux">
+            <div class="reseau"></div>
+        </div>
+        <div class="centre">
+            <p>Recherche de praticiens</p>
+            <p>Nouveaux praticiens réservables A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+        </div>
+        <div class="centre">
+            Doctolib, 54 quai Charles Pasqua, 92300 Levallois-Perret <br> Conditions générales d'utilisation • Politique relative à la protection des données personnelles • Politique en matière de cookies • Gestion des cookies • Règles de référencement
+            <br> Annuaire des médecins du CNOM • Annuaire des chirurgiens-dentistes de l'ONCD • Ordre National des Médecins • Ordre National des Chirurgiens-Dentistes
+        </div>
+    </footer>
+    <script src="https://widget.flowxo.com/embed.js" data-fxo-widget="eyJ0aGVtZSI6IiM2YjY3YzIiLCJ3ZWIiOnsiYm90SWQiOiI2MDlhMzJiY2I3YTM0MjAwMzNhOWY3YzIiLCJ0aGVtZSI6IiM2YjY3YzIiLCJsYWJlbCI6Ikhhcm1vbiJ9fQ==" async defer></script>
 </body>
-
-</html>
 
 </html>

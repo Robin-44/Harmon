@@ -1,164 +1,155 @@
-    * {
-        color: black;
-        font-family: 'Roboto', 'arial', 'sans-serif';
-        font-size: medium;
-    }
-    
-    header {
-        width: 100%;
-        height: 500px;
-        color: white;
-        background-color: #0596de;
-    }
-    
-    .menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        color: #FFFFFF;
-    }
-    
-    .cta {
-        border-radius: 8px;
-        box-shadow: none;
-        background-color: #0596de;
-        text-align: center;
-        margin: 16px;
-        padding: 16px;
-        color: #FFFFFF;
-    }
-    
-    #quoi {
-        border-radius: 8px 0px 0px 8px;
-        min-width: 352px;
-        min-height: 60px;
-    }
-    
-    #ou {
-        min-width: 352px;
-        min-height: 60px;
-    }
-    
-    #rechercher {
-        border-radius: 0px 8px 8px 0px;
-        background-color: #F3C701;
-        min-height: 60px;
-        min-width: 150px;
-    }
-    
-    #pro {
-        border-radius: 8px 8px 8px 8px;
-        background-color: #fff;
-        height: auto;
-        width: auto;
-        color: blue;
-    }
-    
-    thead {
-        text-align: center;
-    }
-    
-    tbody {
-        background-color: #FFFFFF;
-    }
-    
-    td {
-        padding: 32px;
-        min-width: 300px;
-        max-width: 300px;
-    }
-    
-    #info {
-        border-radius: 20px 20px 0px 0px;
-        width: 1200px;
-        background-color: #bef2d3;
-    }
-    
-    h1 {
-        text-align: start;
-    }
-    
-    h2 {
-        text-align: center;
-        font-weight: bold;
-        width: 100%;
-    }
-    
-    h3 {
-        font-size: 14px;
-        text-align: center;
-        width: 100%;
-    }
-    
-    li {
-        list-style: none;
-        text-align: left;
-    }
-    
-    a {
-        text-decoration: none;
-        color: white;
-        font-style: normal;
-    }
-    
-    a:hover {
-        color: white;
-    }
-    
-    main {
-        width: 100%;
-        background-color: #FFFFFF;
-        overflow: auto;
-        padding: 500px;
-    }
-    
-    footer {
-        width: 100%;
-        height: auto;
-    }
-    
-    .menu li {
-        padding: 16px;
-        margin: 16px;
-    }
-    
-    .element {
-        display: flex;
-    }
-    
-    .centre {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    
-    .marges {
-        margin: 5px 5px 5px 5px;
-    }
-    
-    .img {
-        height: 200px;
-        width: 200px;
-        justify-content: center;
-    }
-    
-    .imgs {
-        width: 300px;
-        justify-content: center;
-    }
-    
-    .store {
-        height: 40px;
-        width: auto;
-    }
-    
-    .harmon {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        /* position: absolute;
-    top: 300px;
-    left: 1000px; */
-    }
-    
-    .bule_harmon {}
+* {
+    color: black;
+    font-family: 'Roboto', 'arial', 'sans-serif';
+    font-size: medium;
+}
+
+.fondbleu {
+    color: white;
+    background-color: #0596de;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #FFFFFF;
+}
+
+.cta {
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: #0596de;
+    text-align: center;
+    margin: 16px;
+    padding: 16px;
+    color: #FFFFFF;
+}
+
+#quoi {
+    border-radius: 8px 0px 0px 8px;
+    min-width: 352px;
+    min-height: 60px;
+}
+
+#ou {
+    min-width: 352px;
+    min-height: 60px;
+}
+
+#rechercher {
+    border-radius: 0px 8px 8px 0px;
+    background-color: #F3C701;
+    color: #FFFFFF;
+    min-height: 60px;
+    min-width: 150px;
+}
+
+#pro {
+    border-radius: 8px 8px 8px 8px;
+    background-color: #fff;
+    height: auto;
+    width: auto;
+    color: blue;
+}
+
+tbody {
+    background-color: #FFFFFF;
+}
+
+td {
+    padding: 10px;
+    min-width: 280px;
+    max-width: 280px;
+}
+
+#info {
+    border-radius: 20px 20px 0px 0px;
+    background-color: #bef2d3;
+}
+
+h1 {
+    text-align: start;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 14px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+}
+
+a:hover {
+    color: white;
+}
+
+main {
+    width: 100%;
+    overflow: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin: 16px;
+    padding: 16px;
+}
+
+.menu li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.element {
+    display: flex;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.marges {
+    margin: 5px 5px 5px 5px;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+.imgs {
+    width: 300px;
+    justify-content: center;
+}
+
+.store {
+    height: 40px;
+    width: auto;
+}
+
+#profil_harmon {
+    width: 20px;
+    height: auto;
+}
+
+.harmon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
