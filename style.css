@@ -4,6 +4,10 @@
     font-size: medium;
 }
 
+header {
+    height: auto;
+}
+
 .fondbleu {
     color: white;
     background-color: #0596de;
