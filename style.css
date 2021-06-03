@@ -1,7 +1,10 @@
 * {
     color: black;
     font-family: 'Roboto', 'arial', 'sans-serif';
-    font-size: medium;
+}
+
+p {
+    font-size: 16px;
 }
 
 header {
@@ -25,9 +28,28 @@ header {
     box-shadow: none;
     background-color: #0596de;
     text-align: center;
-    margin: 16px;
-    padding: 16px;
+    margin: 8px;
+    padding: 8px;
     color: #FFFFFF;
+    max-width: 360px;
+    font-weight: bold;
+}
+
+.cta2 {
+    border-radius: 8px;
+    border: 2px solid #0596de;
+    color: #0596de;
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    max-width: 360px;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #A2ACB0;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #quoi {
@@ -52,9 +74,9 @@ header {
 #pro {
     border-radius: 8px 8px 8px 8px;
     background-color: #fff;
-    height: auto;
-    width: auto;
-    color: blue;
+    height: 20px;
+    color: #0596de;
+    font-weight: bold;
 }
 
 tbody {
@@ -65,6 +87,7 @@ td {
     padding: 10px;
     min-width: 280px;
     max-width: 280px;
+    vertical-align: top;
 }
 
 #info {
@@ -74,15 +97,23 @@ td {
 
 h1 {
     text-align: start;
+    font-size: 50px;
+    color: #fff;
 }
 
 h2 {
     text-align: center;
     font-weight: bold;
+    font-size: 25px;
+}
+
+.nombres {
+    font-weight: bold;
+    font-size: 25;
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -136,12 +167,21 @@ a:hover {
 }
 
 #profil_harmon {
-    width: 20px;
-    height: auto;
+    width: 10px;
 }
 
 .harmon {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.gris {
+    color: #A2ACB0;
+}
+
+.footersubtitle {
+    color: #A2ACB0;
+    font-weight: bold;
+    font-size: 18px;
 }
