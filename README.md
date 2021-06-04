@@ -1,15 +1,15 @@
 # Harmon
 
-Harmon est un projet d'outil conversationnel développé par l'entreprise M&R Inov
+Harmon est un projet d'outil conversationnel développé par l'entreprise M&R Inov <br>
 Il s'agit d'un chatbot médical qui peut vous donner des renseignements pour vous rassurer, vous aider à remplir votre DMP et vous aiguiller dans la recherche d'un praticien
 
 ## Installation :
 
-`` git clone git@github.com:Robin-44/Harmon.git ``
+``` git clone git@github.com:Robin-44/Harmon.git ```
 
 ## Utilisation
 
-`` Cliquez sur la landing page "Doctolib.html" ``
+``` Cliquez sur la landing page "Doctolib.html" ```
 
 ## Contenu du Repo :
 
@@ -23,3 +23,6 @@ Il s'agit d'un chatbot médical qui peut vous donner des renseignements pour vou
 - Doctolib.html             (La landing page)
 - style.css                 (le style de la landing page)
 ```
+
+**Vous pouvez tester le chatbot :**
+<iframe src="https://fxo.io/m/fishes-responsive-2963" style="border: 3px solid #f9f9fb; width: 500px; height: 300px;" allowfullscreen></iframe>
