@@ -166,8 +166,9 @@ a:hover {
     width: auto;
 }
 
-#profil_harmon {
-    width: 10px;
+.profil_harmon {
+    width: 100px;
+    height: auto;
 }
 
 .harmon {
@@ -184,4 +185,13 @@ a:hover {
     color: #A2ACB0;
     font-weight: bold;
     font-size: 18px;
+}
+
+.whitestrong {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.white {
+    color: #FFFFFF;
 }
