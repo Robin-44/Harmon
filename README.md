@@ -5,11 +5,15 @@ Il s'agit d'un chatbot médical qui peut vous donner des renseignements pour vou
 
 ## Installation :
 
-``` git clone git@github.com:Robin-44/Harmon.git ```
+```
+    git clone git@github.com:Robin-44/Harmon.git
+```
 
-## Utilisation
+## Utilisation :
 
-``` Cliquez sur la landing page "Doctolib.html" ```
+```
+    Cliquez sur la landing page "Doctolib.html"
+```
 
 ## Contenu du Repo :
 
