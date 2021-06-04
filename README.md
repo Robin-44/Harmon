@@ -29,3 +29,6 @@ Il s'agit d'un chatbot médical qui peut vous donner des renseignements pour vou
 ```
 
 **Vous pouvez tester le chatbot :** [Harmon](https://fxo.io/m/fishes-responsive-2963)
+<html>
+    <iframe src="https://fxo.io/m/fishes-responsive-2963" style="border: 3px solid #f9f9fb; width: 500px; height: 300px;" allowfullscreen></iframe>
+</html>
