@@ -5,18 +5,19 @@ Il s'agit d'un chatbot médical qui peut vous donner des renseignements pour vou
 
 ## Installation :
 
-```bash
-git clone git@github.com:Robin-44/Harmon.git
-```
+`` git clone git@github.com:Robin-44/Harmon.git ``
 
 ## Utilisation
 
-``Cliquez sur la landing page "Doctolib.html"``
+`` Cliquez sur la landing page "Doctolib.html" ``
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Contenu du Repo :
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+``
+|docs
+    - Fiche_de_suivi.pdf    (la fiche de suivi envoyé par le chatbot après le diagnostique)
+    - Livre_Blanc           (Le livre blanc disponible au téléchargement sur la landing page)
+|img (toutes les images utilisées sur la landing page)
+- Doctolib.html             (La landing page)
+- style.css                 (le style de la landing page)
+``
