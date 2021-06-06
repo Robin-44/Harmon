@@ -40,12 +40,12 @@ A l'heure actuelle, nous en sommes à la POC (proof of concept).
     Emma-Loïse QUIN : emma-loise.quin@epitech.digital
 ```
 
+## Aperçu du projet :
+
 **Vous pouvez tester le chatbot :** [Harmon](https://fxo.io/m/fishes-responsive-2963)
 
-<div style="display: flex; justify-content: center;" ><img src="img/Lechatbot.png"/></div>
-
-
-<img style="display: flex; justify-content: center;" src="img/Landingpage.png"/>
+<img src="img/Lechatbot.png"/></div>
+<img src="img/Landingpage.png"/>
 
 
 
