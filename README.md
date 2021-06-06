@@ -1,7 +1,7 @@
 # Harmon
 
 Harmon est un projet d'outil conversationnel développé par l'entreprise M&R Inov <br>
-Il s'agit d'un chatbot médical qui peut vous donner des renseignements pour vous rassurer, vous aider à remplir votre DMP et vous aiguiller dans la recherche d'un praticien.
+Il s'agit d'un chatbot médical qui peut vous donner des renseignements pour vous rassurer, vous aider à remplir votre DMP et vous aiguiller dans la recherche d'un praticien. <br>
 A l'heure actuelle, nous en sommes à la POC (proof of concept).
 
 ## Installation :
@@ -13,8 +13,8 @@ A l'heure actuelle, nous en sommes à la POC (proof of concept).
 ## Utilisation :
 
 ```
-    Cliquez sur la landing page "Doctolib.html" et utilisez le chatbot
-    Vous pourrez accéder au Livre Blanc en le téléchargeant depuis la landing page.
+    Cliquez sur la landing page "Doctolib.html" et utilisez le chatbot.
+    Vous pourrez ainsi accéder au Livre Blanc en le téléchargeant depuis la landing page.
 ```
 
 ## Contenu du Repo :
@@ -40,15 +40,11 @@ A l'heure actuelle, nous en sommes à la POC (proof of concept).
     Emma-Loïse QUIN : emma-loise.quin@epitech.digital
 ```
 
-## Avancement du projet :
-
-```
-    Nous en sommes à la proof of concept.
-```
-
 **Vous pouvez tester le chatbot :** [Harmon](https://fxo.io/m/fishes-responsive-2963)
 
-<img style="display: flex; justify-content: center;" src="img/Lechatbot.png"/>
+<div style="display: flex; justify-content: center;" ><img src="img/Lechatbot.png"/></div>
+
+
 <img style="display: flex; justify-content: center;" src="img/Landingpage.png"/>
 
 
